@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airport icao="LZIB">
+    <name>Letisko M. R. Štefánika, Bratislava</name>
+    <gps lat="48.10" long="17.12" />
+    <area top="48.52" right="18.30" bottom="47.10" left="16.90" />
+
+    <!-- Drahy -->
+    <runways>
+        <runway id="4" length="2900" lat="48.10" long="17.12"  />   
+        <runway id="22" length="2900" lat="48.10" long="17.12" />
+        <runway id="13" length="2950" lat="48.09" long="17.13" />
+        <runway id="31" length="2950" lat="48.09" long="17.13" />
+    </runways>
+
+    <!-- Standardne odletove trasy -->
+    <sids id="4">
+        <sid id="BERVA 6Z" route="OKR,BERVA" />
+        <sid id="NITRA 6Z" route="OKR,NIT" />
+        <sid id="NUBRA 1Z" route="OKR,JAN,NUBRA" />
+        <sid id="TABIN 1Z" route="OKR,JAN,TABIN" />
+        <sid id="TOVKA 2L" route="OKR,TOVKA" />
+        <sid id="TOVKA 2Z" route="OKR,TOVKA" />
+        <sid id="VAMOG 1Z" route="OKR,JAN,VAMOG" />
+    </sids>
+    <sids id="22">
+        <sid id="BERVA 8B" route="OB,JAN,BERVA" />
+        <sid id="NITRA 8B" route="OB,JAN,NIT" />
+        <sid id="NUBRA 1B" route="OB,NUBRA" />
+        <sid id="TABIN 1B" route="OB,TABIN" />
+        <sid id="TOVKA 2B" route="JAN,TOVKA" />
+        <sid id="VAMOG 1B" route="OB,VAMOG" />
+    </sids>
+    <sids id="13">
+        <sid id="BERVA 6Y" route="OB,JAN,BERVA" />
+        <sid id="NITRA 6Y" route="OB,JAN,NIT" />
+        <sid id="NUBRA 1Y" route="OB,NIT,NUBRA" />
+        <sid id="TABIN 1Y" route="OB,TABIN" />
+        <sid id="TOVKA 2Y" route="JAN,TOVKA" />
+        <sid id="VAMOG 1Y" route="JAN,VAMOG" />
+    </sids>
+    <sids id="31">
+        <sid id="BERVA 6A" route="OKR,JAN,BERVA" />
+        <sid id="NITRA 6A" route="JAN,NIT" />
+        <sid id="NUBRA 1A" route="JAN,NUBRA" />
+        <sid id="TABIN 1A" route="JAN,TABIN" />
+        <sid id="TOVKA 2A" route="JAN,TOVKA" />
+        <sid id="TOVKA 2K" route="JAN,TOVKA" />
+        <sid id="VAMOG 1A" route="JAN,VAMOG" />
+    </sids>
+
+    <!-- Standardne priletove trasy -->
+    <stars id="32">
+        <star id="NIT 2R" route="NIT,VYDRA,OB,LZIB" />
+        <star id="TABIN 4R" route="TABIN,VYDRA,OB,LZIB" />
+        <star id="XOMBA 3R" route="XOMBA,VYDRA,OB,LZIB" />
+        <star id="BERVA 2R" route="BERVA,VYDRA,OB,LZIB" />
+    </stars>
+    <stars id="22">
+        <star id="NIT 2S" route="NIT,CIFER,OKR,LZIB" />
+        <star id="TABIN 6S" route="TABIN,JAN,CIFER,OKR,LZIB" />
+        <star id="XOMBA 4S" route="XOMBA,JAN,CIFER,OKR,LZIB" />
+        <star id="KUVEX 1S" route="KUVEX,JAN,CIFER,OKR,LZIB" />
+        <star id="BERVA 2S" route="BERVA,CIFER,OKR,LZIB" />
+    </stars>
+
+    <!-- Cestovne body, VORy a NBDcka -->
+    <waypoints>
+        <waypoint id="0" name="LZIB" lat="48.10" long="17.12" />
+        <waypoint id="1" name="OKR" lat="48.17" long="17.19" freq="108.3" />
+        <waypoint id="2" name="JAN" lat="48.12" long="17.32" freq="110.8" />
+        <waypoint id="3" name="NUBRA" lat="47.52" long="17.30" />
+        <waypoint id="4" name="VAMOG" lat="47.47" long="17.39" />
+        <waypoint id="5" name="TOVKA" lat="48.16" long="16.55" />
+        <waypoint id="6" name="BERVA" lat="48.37" long="17.32" />
+        <waypoint id="7" name="NIT" lat="48.17" long="18.03" freq="116.5" />
+        <waypoint id="8" name="TABIN" lat="48.00" long="18.05" />
+        <waypoint id="9" name="XOMBA" lat="47.45" long="18.03" />
+        <waypoint id="10" name="KUVEX" lat="47.54" long="17.12" />
+        <waypoint id="11" name="OB" lat="48.05" long="17.20" />
+        <waypoint id="12" name="VYDRA" lat="48.02" long="17.32" />
+        <waypoint id="13" name="CIFER" lat="48.19" long="17.26" />
+    </waypoints>
+</airport>

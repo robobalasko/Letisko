@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airport icao="LZKZ">
+    <name>Medzinárodné letisko Košice, Košice</name>
+    <gps lat="48.41" long="21.14" />
+    <area top="48.58" right="21.40" bottom="47.59" left="21.00" />
+
+    <!-- Drahy -->
+    <runways>
+        <runway id="1" length="3100" lat="48.41" long="21.14" />
+        <runway id="19" length="3100" lat="48.41" long="21.14" />
+    </runways>
+
+    <!-- Standardne odletove trasy -->
+    <sids id="1">
+        <sid id="DEDIS 1A" route="DEDIS" />
+        <sid id="EBENI 1A" route="EBENI" />
+        <sid id="KEKED 6A" route="KEKED" />
+        <sid id="MARKA 6A" route="MARKA" />
+        <sid id="NOKRI 1A" route="NOKRI" />
+    </sids>
+    <sids id="19">
+        <sid id="DEDIS 1Y" route="DEDIS" />
+        <sid id="DEDIS 1Z" route="DEDIS" />
+        <sid id="EBENI 1Z" route="EBENI" />
+        <sid id="KEKED 6Y" route="KEKED" />
+        <sid id="MARKA 6Y" route="MARKA" />
+        <sid id="MARKA 6Z" route="MARKA" />
+        <sid id="NOKRI 1Y" route="NOKRI" />
+    </sids>
+   
+    <!-- Standardne priletove trasy -->
+    <stars id="1">
+        <star id="DEDIS 1B" route="DEDIS,KOLUM,LZKZ" />
+        <star id="MARKA 6B" route="MARKA,LZKZ" />
+        <star id="NOKRI 1B" route="NOKRI,LZKZ" />
+        <star id="EBENI 1B" route="EBENI,LZKZ" />
+        <star id="KEKED 6B" route="KEKED,LZKZ" />
+    </stars>
+    
+
+    <!-- Cestovne body, VORy a NBDcka -->
+    <waypoints>
+        <waypoint id="0" name="LZKZ" lat="48.41" long="21.14" />
+        <waypoint id="1" name="DEDIS" lat="48.37" long="20.43" />
+        <waypoint id="2" name="MARKA" lat="48.54" long="20.41" />
+        <waypoint id="3" name="KOLUM" lat="48.26" long="21.04" />
+        <waypoint id="4" name="KEKED" lat="48.31" long="21.17" />
+        <waypoint id="5" name="NOKRI" lat="48.55" long="21.09" />
+        <waypoint id="6" name="EBENI" lat="48.43" long="21.35" />
+    </waypoints>
+</airport>

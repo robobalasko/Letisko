@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airport icao="LHBP">
+    <name>Lisz Ferencz Nemzetközi repülőtér, Budapest</name>
+    <gps lat="47.27" long="19.15" />
+    <area top="48.25" right="19.50" bottom="47.20" left="18.00" />
+    
+    <runways>
+        <runway id="13" length="3100" lat="47.26" long="19.14" />
+        <runway id="31" length="3100" lat="47.25" long="19.16" />
+    </runways>
+    
+    <sids id="13">
+        <sid id="BADOV 3D" route="BP-514,BADOV" />
+        <sid id="LITKU 3D" route="BP-514,LITKU" />
+        <sid id="LITKU 3X" route="BP-514,LITKU" />
+        <sid id="NALAG 3D" route="BP-514,NALAG" />
+        <sid id="NORAH 3D" route="BP-514,NORAH" />
+        <sid id="PUSTA 3D" route="PUSTA" />
+        <sid id="TORNO 3S" route="BP514,BP-516,TORNO" />
+    </sids>
+    
+    <stars id="31">
+        <star id="VEBOS 1B" route="VEBOS,BP-516,LHBP" />
+        <star id="BADOV 1B" route="BADOV,BP-516,LHBP" />
+        <star id="RUTOL 1L" route="RUTOL,BP-514,LHBP" />
+        <star id="NALAG 1L" route="NALAG,BP-514,LHBP" />
+    </stars>
+    
+    <waypoints>
+        <waypoint id="0" name="LHBP" lat="47.27" long="19.15" />
+        <waypoint id="5" name="BADOV" lat="48.01" long="18.48" />
+        <waypoint id="6" name="RUTOL" lat="47.57" long="18.30" />
+        <waypoint id="7" name="VEBOS" lat="47.18" long="18.38" />
+        <waypoint id="8" name="PUSTA" lat="47.09" long="18.44" />
+        <waypoint id="9" name="GILEP" lat="47.29" long="18.15" />
+        <waypoint id="10" name="ERLOS" lat="47.04" long="19.16" />
+        <waypoint id="11" name="NORAH" lat="47.36" long="19.48" />
+        <waypoint id="12" name="NALAG" lat="48.02" long="19.45" />
+        <waypoint id="13" name="LITKU" lat="48.13" long="19.35" />
+        <waypoint id="14" name="TORNO" lat="47.32" long="18.29" />
+        <waypoint id="15" name="BP-514" lat="47.35" long="19.00" />
+        <waypoint id="16" name="BP-516" lat="47.43" long="18.47" />
+        <waypoint id="17" name="BP-538" lat="47.23" long="19.31" />
+    </waypoints>
+</airport>

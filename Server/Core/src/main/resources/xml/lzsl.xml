@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airport icao="LZSL">
+    <name>Medzinárodné letisko Sliač, Sliač</name>
+    <gps lat="48.30" long="19.06"></gps>
+    <area top="48.46" right="19.39" bottom="47.59" left="19.10" />
+    
+    <!-- Drahy -->
+    <runways>
+        <runway id="18" length="2000" lat="48.30" long="19.06" />
+        <runway id="36" length="2000" lat="48.30" long="19.06" />
+    </runways>
+    
+    <!-- Standardne odletove trasy -->
+    <sids id="18">
+        <sid id="UBARU 1B" route="SLC,UBARU" />
+        <sid id="KULIN 1B" route="SLC,KULIN" />
+        <sid id="ULPIS 1B" route="SLC,ABSIT,ULPIS" />
+        <sid id="RIMIT 1B" route="SLC,RIMIT" />
+    </sids>
+    <sids id="36">
+        <sid id="UBARU 1A" route="UBARU" />
+        <sid id="KULIN 1A" route="KULIN" />
+        <sid id="ULPIS 1A" route="ABSIT,ULPIS" />
+        <sid id="RIMIT 1A" route="RIMIT" />
+    </sids>
+    
+    <!-- Standardne priletove trasy -->
+    <stars id="36">
+        <star id="UBARU 1T" route="UBARU,SLC,LSZL" />
+        <star id="KULIN 1T" route="KULIN,SLC,LSZL" />
+        <star id="ULPIS 1T" route="ULPIS,ABSIT,SLC,LSZL" />
+        <star id="RIMIT 1T" route="RIMIT,SLC,LSZL" />
+    </stars>
+    
+    <!-- Cestovne body, VORy a NBDcka -->
+    <waypoints>
+        <waypoint id="0" name="LZSL" lat="48.30" long="19.06" />
+        <waypoint id="1" name="SLC" lat="48.27" long="19.07" freq="114.0" />
+        <waypoint id="2" name="UBARU" lat="48.36" long="19.24" />
+        <waypoint id="3" name="KULIN" lat="48.29" long="19.27" />
+        <waypoint id="4" name="ABSIT" lat="48.25" long="18.53" />
+        <waypoint id="5" name="ULPIS" lat="48.23" long="18.42" />
+        <waypoint id="6" name="RIMIT" lat="48.44" long="18.55" />
+    </waypoints>
+</airport>
